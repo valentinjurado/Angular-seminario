@@ -20,6 +20,8 @@ Aplicación web desarrollada en **Angular** que simula una hamburguesería con i
 
 ---
 ## StackBlitz (Proyecto Editable):
-[editar el proyecto en StackBlitz]()
+[editar el proyecto en StackBlitz](https://stackblitz.com/edit/github-ajwfy3kz?file=README.md)
+
+En StackBlitz, al levantar inicialmente el proyecto, aparece un error que indica "Cannot GET". Sin embargo, al refrescar la página del navegador o reiniciar la consola (vuelve a levantar el servidor), el proyecto se carga correctamente y muestra el contenido de la pagina. Esto no ocurre al ejecutarlo de manera local, donde el proyecto funciona sin inconvenientes desde el inicio. Investigando el problema, encontré que es un comportamiento ocasional en entornos como StackBlitz, pero no pude identificar una solución definitiva.
 
 
