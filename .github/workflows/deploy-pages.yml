@@ -27,7 +27,7 @@ jobs:
       - run: npm run build -- --base-href=/Angular-seminario/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/angular-seminario/browser
+          path: dist/angular-seminario
 
   deploy:
     needs: build
